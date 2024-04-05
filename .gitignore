@@ -1,0 +1,5 @@
+﻿/target
+/dist
+/public
+/.dioxus
+*.txt

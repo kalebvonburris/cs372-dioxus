@@ -1,0 +1,41 @@
+[application]
+
+# App (Project) Name
+name = "cs372-dioxus"
+
+# Dioxus App Default Platform
+default_platform = "web"
+
+# `build` & `serve` dist path
+out_dir = "dist"
+
+# resource (assets) file folder
+asset_dir = "public"
+
+[web.app]
+
+# HTML title tag content
+title = "cs372-dioxus"
+
+[web.watcher]
+
+# when watcher trigger, regenerate the `index.html`
+reload_html = true
+
+# which files or dirs will be watcher monitoring
+watch_path = ["src", "public"]
+
+# include `assets` in web platform
+[web.resource]
+
+# CSS style file
+style = ["tailwind.css"]
+
+[web.resource.dev]
+
+# CSS style file
+style = ["tailwind.css"]
+
+[bundle]
+
+resources = ["public"]
